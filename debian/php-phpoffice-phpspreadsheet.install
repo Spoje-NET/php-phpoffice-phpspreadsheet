@@ -1,0 +1,2 @@
+src/PhpSpreadsheet/* usr/share/php/PhpOffice/PhpSpreadsheet/
+debian/autoload.php  usr/share/php/PhpOffice/PhpSpreadsheet/

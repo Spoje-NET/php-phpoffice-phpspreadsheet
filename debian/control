@@ -1,0 +1,23 @@
+Source: php-phpoffice-phpspreadsheet
+Section: php
+Priority: optional
+Maintainer: Vítězslav Dvořák <vitezslav.dvorak@spojenet.cz>
+Build-Depends: debhelper-compat (= 13), pkg-php-tools
+Standards-Version: 4.6.2
+Homepage: https://github.com/PHPOffice/PhpSpreadsheet
+Vcs-Git: https://github.com/Spoje-NET/php-phpoffice-phpspreadsheet.git
+Vcs-Browser: https://github.com/Spoje-NET/php-phpoffice-phpspreadsheet
+
+Package: php-phpoffice-phpspreadsheet
+Architecture: all
+Depends: ${misc:Depends}, ${phpcomposer:Depends},
+ php-maennchen-zipstream-php,
+ php-markbaker-complex,
+ php-markbaker-matrix,
+ php-psr-simple-cache,
+ php-composer-pcre,
+ php-gd, php-mbstring, php-xml, php-zip
+Description: PHP library to read and write spreadsheet files
+ PhpSpreadsheet can read and write spreadsheet documents in various formats
+ including Excel 2007+, ODS, CSV, HTML, PDF and more. It supports charts,
+ formulas, styles, conditional formatting and many Excel features.

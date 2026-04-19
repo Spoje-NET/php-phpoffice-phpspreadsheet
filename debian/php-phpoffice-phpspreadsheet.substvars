@@ -1,0 +1,7 @@
+phpcomposer:name=phpoffice/phpspreadsheet
+phpcomposer:description=PHPSpreadsheet - Read, Create and Write Spreadsheet documents in PHP -${Newline}Spreadsheet engine
+phpcomposer:Debian-require=php-common, php-common, php-xml, php-gd, php-mbstring, php-xml, php-xml, php-zip, php-composer-pcre, php-maennchen-zipstream-php, php-markbaker-complex (>= 3.0), php-markbaker-complex (<< 4~~), php-markbaker-matrix (>= 3.0), php-markbaker-matrix (<< 4~~), php-psr-simple-cache
+phpcomposer:Debian-require-dev=php-intl, php-dealerdirect-phpcodesniffer-composer-installer, php-dompdf, php-friendsofphp-php-cs-fixer (>= 3.2), php-friendsofphp-php-cs-fixer (<< 4~~), php-mitoteam-jpgraph (>= 10.5), php-mitoteam-jpgraph (<< 11~~), php-mpdf (>= 8.1.1), php-mpdf (<< 9~~), php-phpcompatibility-php-compatibility (>= 9.3), php-phpcompatibility-php-compatibility (<< 10~~), php-phpstan, php-phpstan-deprecation-rules, php-phpstan-phpunit, phpunit (>= 10.5), phpunit (<< 11~~), php-squizlabs-php-codesniffer (>= 3.7), php-squizlabs-php-codesniffer (<< 4~~), php-tcpdf (>= 6.5), php-tcpdf (<< 7~~)
+phpcomposer:Debian-suggest=php-intl, php-mpdf, php-dompdf, php-tcpdf, php-mitoteam-jpgraph
+misc:Depends=
+misc:Pre-Depends=

@@ -1,0 +1,13 @@
+Package: php-phpoffice-phpspreadsheet
+Version: 1.0.0-1
+Architecture: all
+Maintainer: Vítězslav Dvořák <vitezslav.dvorak@spojenet.cz>
+Installed-Size: 5357
+Depends: php-maennchen-zipstream-php, php-markbaker-complex, php-markbaker-matrix, php-psr-simple-cache, php-composer-pcre, php-gd, php-mbstring, php-xml, php-zip
+Section: php
+Priority: optional
+Homepage: https://github.com/PHPOffice/PhpSpreadsheet
+Description: PHP library to read and write spreadsheet files
+ PhpSpreadsheet can read and write spreadsheet documents in various formats
+ including Excel 2007+, ODS, CSV, HTML, PDF and more. It supports charts,
+ formulas, styles, conditional formatting and many Excel features.
